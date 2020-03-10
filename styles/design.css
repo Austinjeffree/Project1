@@ -1,19 +1,41 @@
 header {
-    padding: 0px 0px 59px 0px;
     text-align: center;
-    background-color: orangered;
-    float: center;
+    height: 107px;
 }
 
 header > img {
-    width: 200px;
-    height: 157px;
+    width: 150px;
+    height: 107px;
     float: left;
 }
-
+figure > img {
+    height: 300px;
+}
+article {
+    width: 225px;
+    height: 300px;
+    border: black solid;
+}
 nav {
     float: left;
     text-align: center;
-    background-color: black;
-    padding: 100px 63px;
+    padding-top: 110px;
+    width: 150px;
+    height: 400px;
+}
+
+.bottomHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 779px;
+    height: 100px;
+    margin-left: 190px;
+    border: black solid;
+}
+.topHome {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }

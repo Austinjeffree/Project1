@@ -18,13 +18,13 @@
             <a href="catering.html">Catering</a>
         </nav>
         <div class="tabs">
-            <button class="tabLinks">Starters</button>
-            <button class="tabLinks">Sammiches</button>
-            <button class="tabLinks">Meals</button>
-            <button class="tabLinks">Other Yummies</button>
-            <button class="tabLinks">QPups</button>
-            <button class="tabLinks">Sides & Deserts</button>
-            <button class="tabLinks">Drinks</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'starters')">Starters</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'sammiches')">Sammiches</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'meals')">Meals</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'yummies')">Other Yummies</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'qPups')">QPups</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'sidesDesserts')">Sides & Deserts</button>
+            <button class="tabLinks" onclick="openMenuList(event, 'drinks')">Drinks</button>
         </div>
         <div id="starters" class="tabContent">
             <h3>Starters</h3>
@@ -133,7 +133,7 @@
                 served on a toasted hogie bun. 9.99<br />
             </p>
         </div>
-        <div id="Meals" class="tabContent">
+        <div id="meals" class="tabContent">
             <h3>Meals</h3>
             <h6>Comes with two sides and corn bread. Add a sausage for 2.99 or two bones for 3.99</h6>
             <strong>Pulled Pork</strong><br />
@@ -225,5 +225,6 @@
                 Free Refills 2.49<br />
             </p>
         </div>
+        <script src="java/script.js" type="text/javascript"></script>
     </body>
 </html>
