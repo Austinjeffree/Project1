@@ -1,3 +1,4 @@
+/*CSS designed for all pages linked to this stylesheet */
 header {
     text-align: center;
     height: 107px;
@@ -9,9 +10,20 @@ header {
     height: 107px;
     float: left;
 }
+nav {
+    float: left;
+    text-align: center;
+    padding-top: 110px;
+    width: 150px;
+    height: 400px;
+}
+
+/* CSS specifically for home.html page */
+
 figure > img {
     height: 300px;
 }
+
 article {
     text-align: center;
     width: 225px;
@@ -21,12 +33,11 @@ article {
     overflow: auto;
     text-overflow: ellipsis;
 }
-nav {
-    float: left;
-    text-align: center;
-    padding-top: 110px;
-    width: 150px;
-    height: 400px;
+
+.topHome {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 
 .bottomHome {
@@ -42,12 +53,9 @@ nav {
     overflow: auto;
     text-overflow: ellipsis;
 }
-.topHome {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
 
 #star {
     font-size: 10px;
 }
+
+/*CSS specifically for linked liveMusic.html page */
