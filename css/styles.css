@@ -88,6 +88,7 @@ figure#foodTruck > img {
 }
 
 /* CSS Specifically more menu.html page */
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -120,3 +121,7 @@ figure#foodTruck > img {
   width: 800px;
   margin-left: 275px;
 }
+
+
+/* CSS specifically for the liveMusic.html page */
+
