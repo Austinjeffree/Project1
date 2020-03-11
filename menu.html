@@ -17,17 +17,18 @@
             <a href="liveMusic.html">Live Music</a><br /><br /><br />
             <a href="catering.html">Catering</a>
         </nav>
-        <div class="tabs">
-            <button class="tabLinks" onclick="openMenuList(event, 'starters')">Starters</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'sammiches')">Sammiches</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'meals')">Meals</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'yummies')">Other Yummies</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'qPups')">QPups</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'sidesDesserts')">Sides & Deserts</button>
-            <button class="tabLinks" onclick="openMenuList(event, 'drinks')">Drinks</button>
+        <div class="tab">
+            <button class="tablinks" onclick="openMenu(event, 'starters')">Starters</button>
+            <button class="tablinks" onclick="openMenu(event, 'sammiches')">Sammiches</button>
+            <button class="tablinks" onclick="openMenu(event, 'meals')">Meals</button>
+            <button class="tablinks" onclick="openMenu(event, 'yummies')">Other Yummies</button>
+            <button class="tablinks" onclick="openMenu(event, 'QPups')">QPups</button>
+            <button class="tablinks" onclick="openMenu(event, 'sidesDesserts')">Sides & Desserts</button>
+            <button class="tablinks" onclick="openMenu(event, 'drinks')">Drinks</button>
         </div>
-        <div id="starters" class="tabContent">
-            <h3>Starters</h3>
+        
+        <div id="starters" class="tabcontent">
+        <h3>Starters</h3>
             <p>
                 <strong>BBQ Egg Rolls</strong><br />
                 Pulled pork and shredded cabbage
@@ -89,53 +90,54 @@
                 cajun dipping sauce. 7.99<br />
             </p>
         </div>
-        <div id="sammiches" class="tabContent">
-            <h3>Sammiches</h3>
-            <h6>All Sammiches come with one side. Add a sausage for 2.99 or 2 bones 3.99 </h6>
-            <p>
-                <strong>Pulled Pork</strong><br />
-                Third pound of our cherry smoked pulled
-                pork and you add the sauce 7.99<br />
-                <strong>Junkyard Dog</strong><br />
-                Best of both worlds piled high with pulled
-                pork on top of sliced Brisket. 9.49<br />
-                <strong>QDog - The Pitmaster's favorite!</strong><br />
-                Cherry smoked pulled pork, drizzled with
-                our house dog sauce and topped with
-                apple cider slaw. 8.99<br />
-                <strong>Brisket</strong><br />
-                Third pound of our slow smoked hand
-                rubbed competition brisket. This is a
-                must try if you have been searching for
-                juicy authentic cooked brisket 10.99
-                <strong>Texas Style Hot Link</strong><br />
-                A spicy hot link sausage served on a
-                stadium style bun. Try the mustard sauce
-                on this! 7.49<br />
-                <strong>Briskey Philly</strong>
-                Sliced Brisket topped with caramelized
-                onions and mushrooms and topped with
-                swiss cheese served on a hoagie bun.
-                10.99<br />
-                <strong>Smother Pork - A joint favorite!</strong>
-                Our cherry smoked pulled pork drizzled
-                with our spicy dog sauce and smothered
-                in cheese sauce and topped with
-                jalapenos. 8.99<br />
-                <strong>Bacon Wrapped Sausage Link</strong><br />
-                An Italian sausage link wrapped in bacon
-                and slow smoked and served on a
-                stadium style bun. 7.49<br />
-                <strong>Stuffed Sausage Melt</strong><br />
-                A Split Hot Link, grilled and topped with
-                pulled pork, mustard sauce drizzle,
-                sautéed onions and melted swiss cheese
-                served on a toasted hogie bun. 9.99<br />
-            </p>
+        
+        <div id="sammiches" class="tabcontent">
+        <h3>Sammiches</h3>
+        <p>
+            <strong>Pulled Pork</strong><br />
+            Third pound of our cherry smoked pulled
+            pork and you add the sauce 7.99<br />
+            <strong>Junkyard Dog</strong><br />
+            Best of both worlds piled high with pulled
+            pork on top of sliced Brisket. 9.49<br />
+            <strong>QDog - The Pitmaster's favorite!</strong><br />
+            Cherry smoked pulled pork, drizzled with
+            our house dog sauce and topped with
+            apple cider slaw. 8.99<br />
+            <strong>Brisket</strong><br />
+            Third pound of our slow smoked hand
+            rubbed competition brisket. This is a
+            must try if you have been searching for
+            juicy authentic cooked brisket 10.99
+            <strong>Texas Style Hot Link</strong><br />
+            A spicy hot link sausage served on a
+            stadium style bun. Try the mustard sauce
+            on this! 7.49<br />
+            <strong>Briskey Philly</strong>
+            Sliced Brisket topped with caramelized
+            onions and mushrooms and topped with
+            swiss cheese served on a hoagie bun.
+            10.99<br />
+            <strong>Smother Pork - A joint favorite!</strong>
+            Our cherry smoked pulled pork drizzled
+            with our spicy dog sauce and smothered
+            in cheese sauce and topped with
+            jalapenos. 8.99<br />
+            <strong>Bacon Wrapped Sausage Link</strong><br />
+            An Italian sausage link wrapped in bacon
+            and slow smoked and served on a
+            stadium style bun. 7.49<br />
+            <strong>Stuffed Sausage Melt</strong><br />
+            A Split Hot Link, grilled and topped with
+            pulled pork, mustard sauce drizzle,
+            sautéed onions and melted swiss cheese
+            served on a toasted hogie bun. 9.99<br />
+        </p> 
         </div>
-        <div id="meals" class="tabContent">
-            <h3>Meals</h3>
-            <h6>Comes with two sides and corn bread. Add a sausage for 2.99 or two bones for 3.99</h6>
+        
+        <div id="meals" class="tabcontent">
+        <h3>Meals</h3>
+        <p>
             <strong>Pulled Pork</strong><br />
             Half pound of or our slow smoked pulled
             pork 10.99<br />
@@ -153,8 +155,12 @@
             Our ribs start with QDogs dry rub then misted with our apple juice based spritz and finished
             with QDogs competition rib glaze. These are a thing of beauty and taste even better!
             Full Rack Meal 23.99 Half Rack Meal 16.99 3 Bone Meal 10.99 2 Bone sampler (ribs only) 3.99
+        </p>
         </div>
-        <div id="yummies" class="tabContent">
+        
+        <div id="yummies" class="tabcontent">
+        <h3>Other Yummies</h3>
+        <p>
             <strong>White Chicken Chili</strong><br />
             Our award winning chili get some while
             supplies last! Add a piece of Corn Bread
@@ -174,21 +180,25 @@
             slaw, pulled pork, pickle spear and
             drizzled with house sauce. Served with
             cornbread. 8.99<br /> 
+        </p> 
         </div>
-        <div id="qPups" class="tabContent">
-            <h3>QPups</h3>
-            <h6>These items are for the lil pups 12 and under. All meals come with a drink and fries or tots</h6>
-            <p>
-                <strong>Mini Corn Dogs</strong><br />
-                5.99<br />
-                <strong>Two Pork Sliders</strong><br />
-                5.99<br />
-                <strong>Two Chicken Tenders</strong><br />
-                5.99<br />
-            </p>
+        
+        <div id="QPups" class="tabcontent">
+        <h3>QPups</h3>
+        <h6>These items are for the lil pups 12 and under. All meals come with a drink and fries or tots</h6>
+        <p>
+            <strong>Mini Corn Dogs</strong><br />
+            5.99<br />
+            <strong>Two Pork Sliders</strong><br />
+            5.99<br />
+            <strong>Two Chicken Tenders</strong><br />
+            5.99<br />
+        </p> 
         </div>
-        <div id="sidesDesserts" class="tabContent">
-            <h3>Sides</h3>
+        
+        <div id="sidesDesserts" class="tabcontent">
+        <h3>Sides & Desserts</h3>
+        <p>
             <strong>Apple Cider Slaw - A must try!</strong><br />
             This is our very own
             apple cider vinegar
@@ -203,7 +213,7 @@
             <strong>Q Fries or Tots</strong><br />
             Fries or Tots dusted with
             our signature brisket rub
-             3.99<br />
+            3.99<br />
             <strong>Smoked Beans</strong><br />
             Loaded with our pulled
             pork 2.39<br />
@@ -213,17 +223,19 @@
             <strong>Cootage Cheese</strong><br />
             From our friends at
             Homestead Dairy 2.49<br />
-            <h3>Deserts</h3>
-            <h6>We Proudly Serve Kathy's Pies! Ask server for today's flavors. Slice 3.99</h6>
+        </p>
+        <h3>Deserts</h3>
+        <h6>We Proudly Serve Kathy's Pies! Ask server for today's flavors. Slice 3.99</h6> 
         </div>
-        <div id="drinks" class="tabConent">
-            <h3>Drinks</h3>
-            <p>
-                <strong>Pepsi Products - Dr Pepper - Lemonade</strong><br />
-                Free Refills 2.49<br />
-                <strong>Fresh Brewed Ice Tea & Southern Sweet Tea</strong><br />
-                Free Refills 2.49<br />
-            </p>
+        
+        <div id="drinks" class="tabcontent">
+        <h3>Drinks</h3>
+        <p>
+            <strong>Pepsi Products - Dr Pepper - Lemonade</strong><br />
+            Free Refills 2.49<br />
+            <strong>Fresh Brewed Ice Tea & Southern Sweet Tea</strong><br />
+            Free Refills 2.49<br />
+        </p>
         </div>
         <script src="java/script.js" type="text/javascript"></script>
     </body>
