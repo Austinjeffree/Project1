@@ -60,7 +60,7 @@ article {
 
 /*CSS specifically for linked catering.html page */
 
-#liveMusicFlex {
+#cateringFlex {
     border: black solid;
     width: 1050px;
     height: 407px;
@@ -125,3 +125,23 @@ figure#foodTruck > img {
 
 /* CSS specifically for the liveMusic.html page */
 
+#liveMusicFlex {
+    border: black solid;
+    width: 1050px;
+    height: 407px;
+    margin-left: 150px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: auto;
+}
+
+#myCarousel {
+    width: 600px;
+    height: 400px;
+}
+.carousel-inner img{
+    height: 375px;
+    width: 100%
+}
