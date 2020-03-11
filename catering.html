@@ -4,7 +4,6 @@
         <title>QDogs BBQ Company</title>
         <meta name="description" content="BBQ barbeque QDogs pulled pork brisket ribs live music blues authentic delcious tasty" />
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="bootstrap/css/">
     </head>
     <body>
         <img src="images/logo.PNG" alt="logo" id="logo">
@@ -18,37 +17,44 @@
             <a href="liveMusic.html">Live Music</a><br /><br /><br />
             <a href="catering.html">Catering</a>
         </nav>
-            <h1>Request a quote</h1>
+        <div id=liveMusicFlex>
             <form>
-                <h3>First & Last Name:</h3>
-                <input type="text" name="name" placeholder="Enter your First & Last name">
-                <h3>Phone Number:</h3>
-                <input type="tel" name="phone" placeholder="Enter your phone number">
-                <h3>Email:</h3>
-                <input type="email" name="email" placeholder="Enter your email address">
-                <h3>Date & Time:</h3>
-                <input type="date" name="date">
-                <input type="time" name="time">
-                <h3>Headcount:</h3>
-                <input type="number" name="headcount" placeholder="Enter headcount">
-                <h3>Additional Information:</h3>
-                <input type="text" name="comment">
-                <p>
-                    Please be as detailed as possible. Include information such as menu items,
-                    date & time, number of people you are feeding, and contact information.  
-                </p>
-                <input type="button" value="Submit">
+                <fieldset>
+                    <legend>Request a quote</legend>
+                    <section id="inputFirst">
+                        <h3>First & Last Name:</h3>
+                        <input type="text" name="name" placeholder="Enter your First & Last name">
+                        <h3>Phone Number:</h3>
+                        <input type="tel" name="phone" placeholder="Enter your phone number">
+                        <h3>Email:</h3>
+                        <input type="email" name="email" placeholder="Enter your email address">
+                        <h3>Date & Time:</h3>
+                        <input type="date" name="date">
+                        <input type="time" name="time">
+                    </section>
+                    <section id="inputSecond">
+                        <h3>Headcount:</h3>
+                        <input type="number" name="headcount" placeholder="Enter headcount">
+                        <h3>Additional Information:</h3>
+                        <input type="text" name="comment">
+                        <p>
+                            Please be as detailed as possible. Include information such as menu items,
+                            date & time, number of people you are feeding, and contact information.  
+                        </p>
+                        <input type="button" value="Submit">
+                    </section>
+                </fieldset>
             </form>
-        </section>
-        <section>
-            <figure>
-                <img src="images/foodTruck.PNG" alt="Food Truck">
-            </figure>
-            <article>
-                Choose QDogs catering for your next event wether it be for a business function, a delcious bite on your wedding day,
-                or you want us to bring our food truck to a festival you're organizing, we have all your catering needs handled.
-                For questions concerning catering please contact (319) 826-6668 or email catering@qdogsbbqcompany.com.
-            </article>
-        </section>        
+            <section>
+                <figure id="foodTruck">
+                    <img src="images/foodTruck.PNG" alt="Food Truck">
+                    <figcaption>
+                        Choose QDogs catering for your next event wether it be for a business function, a delcious bite on your wedding day,
+                        or you want us to bring our food truck to a festival you're organizing, we have all your catering needs handled.
+                        For questions concerning catering please contact <br />call (319) 826-6668 or email catering@qdogsbbqcompany.com.
+                    </figcaption>
+                </figure>
+            </section>
+        </div>     
     </body>
 </html>

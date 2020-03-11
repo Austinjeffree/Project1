@@ -20,7 +20,7 @@ nav {
 
 /* CSS specifically for home.html page */
 
-figure > img {
+figure > img#insideQdogs {
     height: 300px;
 }
 
@@ -58,4 +58,31 @@ article {
     font-size: 10px;
 }
 
-/*CSS specifically for linked liveMusic.html page */
+/*CSS specifically for linked catering.html page */
+
+#liveMusicFlex {
+    border: black solid;
+    width: 1050px;
+    height: 407px;
+    margin-left: 150px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: auto;
+}
+fieldset {
+    border: black solid;
+    width:600px;
+    height: 350px; 
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+#inputFirst {
+    float: left;
+}
+figure#foodTruck > img {
+    width: 300px;
+    height: 225px;
+    overflow: auto;
+}
