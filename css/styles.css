@@ -1,8 +1,21 @@
 /*CSS designed for all pages linked to this stylesheet */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+body {
+    color: rgb(255, 255, 255);
+    background-image:    url(../images/wood.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+  }
 header {
     text-align: center;
-    height: 107px;
-    width: 1200px;
+    width: 200px;
+    margin-left: 475px;
+    margin-bottom: 60px;
+    font-family: 'Fredericka the Great', cursive;
+    color: black;
+    font-size: 1.4em;
 }
 
 #logo {
@@ -13,11 +26,17 @@ header {
 nav {
     float: left;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 60px;
     width: 150px;
-    height: 300px;
+    height: 370px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.3em;
+    background-color: #ea1b23;
+    color: white;
     }
-
+a {
+    color: white;
+}
 /* CSS specifically for home.html page */
 
 figure > img#insideQdogs {
@@ -32,6 +51,7 @@ article {
     margin-top: 15px;
     overflow: auto;
     text-overflow: ellipsis;
+    background-color: #ea1b23;
 }
 
 .topHome {
@@ -52,6 +72,7 @@ article {
     border: black solid;
     overflow: auto;
     text-overflow: ellipsis;
+    background-color: #ea1b23;
 }
 
 #star {
@@ -120,6 +141,7 @@ figure#foodTruck > img {
   padding: 6px 12px;
   width: 800px;
   margin-left: 275px;
+  color: black;
 }
 
 
