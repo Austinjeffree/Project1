@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 body {
-    color: rgb(255, 255, 255);
+    color:white;
     background-image:    url(../images/wood.jpg);
     background-size:     cover;                     
     background-repeat:   no-repeat;
@@ -11,9 +11,10 @@ body {
 }
 header {
     text-align: center;
-    width: 200px;
+    width: 250px;
     margin-left: 475px;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
+    padding-top: 35px;
     font-family: 'Fredericka the Great', cursive;
     color: black;
     font-size: 1.4em;
@@ -27,10 +28,9 @@ header {
 nav {
     float: left;
     text-align: center;
-    margin-top: 30px;
-    padding-top: 35px;
+    padding-top: 55px;
     width: 150px;
-    height: 350px;
+    height: 425px;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.3em;
     background-color: #ea1b23;
@@ -42,15 +42,17 @@ a {
 /* CSS specifically for home.html page */
 
 figure > img#insideQdogs {
-    height: 300px;
+    height: 312px;
+    margin-left: 15px;
+    border: black solid 2px;
 }
 
 article {
     text-align: center;
-    width: 225px;
-    height: 300px;
-    border: black solid;
-    margin-top: 15px;
+    width: 235px;
+    height: 312px;
+    border: black solid 2px;
+    margin-left: 10px;
     overflow: auto;
     text-overflow: ellipsis;
     background-color: #ea1b23;
@@ -61,8 +63,11 @@ article > section > h4 {
 }
 .topHome {
     display: flex;
+    justify-content: flex-start;
     flex-direction: row;
     align-items: stretch;
+    text-overflow: auto;
+    text-overflow: ellipsis;
 }
 
 .bottomHome {
@@ -72,9 +77,9 @@ article > section > h4 {
     justify-content: space-between;
     align-items: stretch;
     width: 1050px;
-    height: 75px;
-    margin-left: 190px;
-    border: black solid;
+    height: 100px;
+    margin-left: 165px;
+    border: black solid 2px;
     overflow: auto;
     text-overflow: ellipsis;
     background-color: #ea1b23;
@@ -87,34 +92,41 @@ article > section > h4 {
 /*CSS specifically for linked catering.html page */
 
 #cateringFlex {
-    width: 1050px;
     height: 507px;
     margin-left: 150px;
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: start;
     flex-direction: row;
 }
-fieldset {
-    border: black solid;
-    width:600px;
-    height: 385px; 
+form article {
+    border: black solid 2px;
+    width:650px;
+    height: 425px; 
     overflow: auto;
     text-overflow: ellipsis;
     background-color: #ea1b23;
-    margin-left: 50px;
+    margin-left: 15px;
 }
 #inputFirst {
     float: left;
-    margin-right: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+#inputSecond {
+    padding-top: 25px;
+    margin-right: 50px;
+    text-align: left;
 }
 figure#foodTruck {
     background-color: #ea1b23;
-    border: black solid;
+    border: black solid 2px;
     width: 300px;
-    height: 375px;
+    height: 425px;
     overflow: auto;
     text-overflow: ellipsis;
+    margin-left: 15px;
 }
 legend {
     font-family: 'Oswald', sans-serif;
@@ -141,13 +153,14 @@ form h3 {
   overflow: hidden;
   border: 1px solid black;
   background-color: #ea1b23;
-  width: 660px;
+  width: 800px;
   margin-left: 175px;
+
   
 }
 .tab button {
   background-color: inherit;
-  float: left;
+  float: center;
   border: none;
   outline: none;
   cursor: pointer;
@@ -155,6 +168,7 @@ form h3 {
   transition: 0.3s;
   font-size: 17px;
   font-family: 'Oswald', sans-serif;
+  margin-left: 15px;
 
 }
 .tab button:hover {
@@ -168,8 +182,9 @@ form h3 {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  width: 637px;
+  width: 800px;
   margin-left: 175px;
+  margin-top: 10px;
   color: white;
   background-color: #ea1b23;
   border: solid black 1px;
@@ -184,22 +199,24 @@ div.tabcontent > p > strong {
 /* CSS specifically for the liveMusic.html page */
 
 #liveMusicFlex {
-    border: black solid;
-    width: 1050px;
-    height: 407px;
+    height: 425px;
     margin-left: 150px;
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
     overflow: auto;
 }
 
 #myCarousel {
     width: 600px;
-    height: 400px;
+    margin-left: 15px;
 }
-.carousel-inner img{
-    height: 375px;
-    width: 100%
+.carousel-inner img {
+    width: 100%;
+}
+#calendar {
+    margin-left: 15px;
+    background-color: #ea1b23;
+    height: 425px;
 }
