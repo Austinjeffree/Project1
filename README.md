@@ -8,7 +8,7 @@ Austin Coil 03/14/2020
    
     Once the website is loaded to the default home page you will see a navigation bar down the lefthand side for navigation amongst
     the other pages found within the site.  Home page is mainly for viewing.  Within the menu page you will see a list of tabs labeled
-	  with menu categories. You can click on the different tabs to see the different items offered in each category. Within the live music 
+    with menu categories. You can click on the different tabs to see the different items offered in each category. Within the live music 
     page you will see a bootstrap carousel that has navigation to scroll through the images, with an automatic interval for slide change. 
     There is also a google calendar linked to ensure calendar stays up to date with current data.  Within the catering page you will see a 
     form for input that has been linked to formspree to ensure data is being submitted.
