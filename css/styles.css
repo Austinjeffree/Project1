@@ -52,11 +52,13 @@ nav > a {
     align-items: stretch;
     text-overflow: auto;
     text-overflow: ellipsis;
+    /* controls the top 1/2 of the home page */
 }
 figure > img#insideQdogs {
     height: 312px;
     margin-left: 15px;
     border: black solid 2px;
+    /* controls the main image on the page */
 }
 article#hoursContact {
     text-align: center;
@@ -67,16 +69,20 @@ article#hoursContact {
     overflow: auto;
     text-overflow: ellipsis;
     background-color: #ea1b23;
+    /*controls the the section to the right of the image on the home page */
 }
 article#hoursContact > section > h4 {
     font-family: 'Oswald', sans-serif;
+    /*headers in the section */
 
 }
 #star {
     font-size: 10px;
+    /*note about the hours */
 }
 p#contact > a {
     color: rgb(54, 54, 151);
+    /*facebook link */
 }
 .bottomHome {
     text-align: center;
@@ -91,6 +97,7 @@ p#contact > a {
     overflow: auto;
     text-overflow: ellipsis;
     background-color: #ea1b23;
+    /* bottom portion of the home page */
 }
 
 
@@ -103,11 +110,15 @@ p#contact > a {
     align-items: stretch;
     justify-content: start;
     flex-direction: row;
+    /* flex that pages elements are connected too*/
+
 }
 legend {
     font-family: 'Oswald', sans-serif;
     font-size: 1.75em;
     color: black;
+    text-align: center;
+    /* header input fields */
 }
 form article {
     border: black solid 2px;
@@ -117,20 +128,24 @@ form article {
     text-overflow: ellipsis;
     background-color: #ea1b23;
     margin-left: 15px;
+    /* distiguishes box that input fields are sitting in */
 }
 form h3 {
     font-family: 'Oswald', sans-serif;
+    /*Headers to user input fields */
 }
 #inputFirst {
     float: left;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 15px;
+    margin-left: 100px;
     padding-top: 25px;
+    /* first column of input fields */
 }
 #inputSecond {
     padding-top: 25px;
-    margin-right: 50px;
+    margin-right: 90px;
     text-align: left;
+    /* second column of input fields */
 }
 figure#foodTruck {
     background-color: #ea1b23;
@@ -140,16 +155,19 @@ figure#foodTruck {
     overflow: auto;
     text-overflow: ellipsis;
     margin-left: 15px;
+    /* controls the box the image and its caption are sitting in */
 }
 figure#foodTruck > img {
     height: 175px;
     width: 290px;
     padding: 5px;
     overflow: auto;
+    /*controls just the image in the figure#foodTruck element */
 }
 figure#foodTruck > figcaption {
     text-align: center;
     font-size: .9em;
+    /*controls just the caption in hte figure#foodTruck element */
 }
 
 /* CSS Specifically more menu.html page */
@@ -160,6 +178,7 @@ figure#foodTruck > figcaption {
   background-color: #ea1b23;
   width: 800px;
   margin-left: 175px;
+  /* for the tab bar that buttons sit in*/
 
   
 }
@@ -174,13 +193,15 @@ figure#foodTruck > figcaption {
   font-size: 17px;
   font-family: 'Oswald', sans-serif;
   margin-left: 15px;
-
+  /* for the buttons in the tab bar*/
 }
 .tab button:hover {
   background-color: #ddd;
+  /* when hovering over tabs */
 }
 .tab button.active {
   background-color: #ff9da0;
+  /* tab you are currently viewing */
 }
 .tabcontent {
   display: none;
@@ -192,10 +213,21 @@ figure#foodTruck > figcaption {
   background-color: #ea1b23;
   border: solid black 2px;
   font-size: .9em;
+  /* content that disappears/appears as you click between tabs */
 }
 div.tabcontent > p > strong {
     text-decoration: underline;
+    /* Menu item names */
     
+}
+div.tabcontent> h3 {
+    text-align: center;
+    /* Headers in menu items */
+}
+div.tabcontent>h5 {
+    text-align: center;
+    font-size: .9em;
+    /* Menu item header descriptiono */
 }
 
 /* CSS specifically for the liveMusic.html page */
@@ -208,16 +240,23 @@ div.tabcontent > p > strong {
     justify-content: flex-start;
     flex-direction: row;
     overflow: auto;
+    /* flex that pages elements are connected too*/
 }
 #myCarousel {
     width: 600px;
     margin-left: 15px;
+    height: 425px;
+    /*bootstrap carousel template, dont change ID names in html, 
+    this controls the actual carousel */
 }
 .carousel-inner img {
-    width: 100%;
+    height: 100%;
+    /* this controls the images themselves that are within the carousel */
 }
 #calendar {
     margin-left: 15px;
     background-color: #ea1b23;
     height: 425px;
+    border: black solid 1px;
+    /* imported calendar for google, for changes to the calendar appearance must be done in google */
 }
