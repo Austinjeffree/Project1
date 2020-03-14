@@ -17,7 +17,9 @@
             <a href="liveMusic.html">Live Music</a><br /><br /><br />
             <a href="catering.html">Catering</a>
         </nav>
+        <!-- Content above this needs to remain the same each page (excluding the header/varies by pages)-->
         <div class="tab">
+            <!--Buttons found within the tab bar// has JS function attached to onclick-->
             <button class="tablinks" onclick="openMenu(event, 'starters')">Starters</button>
             <button class="tablinks" onclick="openMenu(event, 'sammiches')">Sammiches</button>
             <button class="tablinks" onclick="openMenu(event, 'meals')">Meals</button>
@@ -27,6 +29,8 @@
             <button class="tablinks" onclick="openMenu(event, 'drinks')">Drinks</button>
         </div>
         
+        <!-- content for buttons clicked, ID must match the second parameter in the function
+        of the button being clicked to work correctly-->
         <div id="starters" class="tabcontent">
             <h3>Starters</h3>
             <p>

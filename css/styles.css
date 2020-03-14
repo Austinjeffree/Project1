@@ -46,17 +46,15 @@ nav > a {
 
 /* CSS specifically for home.html page */
 .topHome {
+    width: 1065px;
+    margin-left: 175px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     align-items: stretch;
-    text-overflow: auto;
-    text-overflow: ellipsis;
     /* controls the top 1/2 of the home page */
 }
 figure > img#insideQdogs {
     height: 312px;
-    margin-left: 15px;
     border: black solid 2px;
     /* controls the main image on the page */
 }
@@ -88,7 +86,7 @@ p#contact > a {
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: stretch;
     width: 1050px;
     height: 100px;
