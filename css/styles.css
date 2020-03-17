@@ -26,6 +26,8 @@ header {
     width: 150px;
     height: 107px;
     float: left;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 nav {
     float: left;
@@ -255,6 +257,6 @@ div.tabcontent>h5 {
     margin-left: 15px;
     background-color: #ea1b23;
     height: 425px;
-    border: black solid 1px;
+    border: black solid 2px;
     /* imported calendar for google, for changes to the calendar appearance must be done in google */
 }
