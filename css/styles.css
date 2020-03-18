@@ -32,6 +32,7 @@ header {
 nav {
     float: left;
     text-align: center;
+    line-height: 80px;
     margin-left: 10px;
     padding-top: 55px;
     width: 150px;
@@ -43,6 +44,9 @@ nav {
     }
 nav > a {
     color: white;
+}
+nav > a:hover {
+    color: #ff9da0;
 }
 
 
@@ -170,7 +174,7 @@ figure#foodTruck > figcaption {
     /*controls just the caption in hte figure#foodTruck element */
 }
 
-/* CSS Specifically more menu.html page */
+/* CSS Specifically for menu.html page */
 
 .tab {
   overflow: hidden;
@@ -210,6 +214,7 @@ figure#foodTruck > figcaption {
   margin-left: 175px;
   margin-top: 10px;
   color: white;
+  line-height: 40px;
   background-color: #ea1b23;
   border: solid black 2px;
   font-size: .9em;
@@ -229,6 +234,7 @@ div.tabcontent>h5 {
     font-size: .9em;
     /* Menu item header descriptiono */
 }
+.tabcontent > p
 
 /* CSS specifically for the liveMusic.html page */
 
@@ -260,3 +266,10 @@ div.tabcontent>h5 {
     border: black solid 2px;
     /* imported calendar for google, for changes to the calendar appearance must be done in google */
 }
+
+/* CSS for Mobile */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    nav {
+        display: none;
+    }
+
